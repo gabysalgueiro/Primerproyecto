@@ -1,0 +1,30 @@
+console.log("Tarea 2");
+const rosa_precio=8
+const lirio_precio=10
+const tulipan_precio=2
+let rosa_cantidad=70;
+let rosa_valor=0;
+let lirio_cantidad=50;
+let lirio_valor=0;
+let tulipan_cantidad=120;
+let tulipan_valor=0;
+let total=0;
+rosa_valor=rosa_precio*rosa_cantidad;
+lirio_valor=lirio_precio*lirio_cantidad;
+tulipan_valor=tulipan_precio*tulipan_cantidad;
+total=rosa_valor+lirio_valor+tulipan_valor;
+console.log("Rosa   :"+"Precio unitario:"+rosa_precio+", cantidad:"+rosa_cantidad+", Valor:" +rosa_valor);
+console.log("Lirio  :"+"Precio unitario:"+lirio_precio+", cantidad:"+lirio_cantidad+", Valor:" +lirio_valor);
+console.log("Tulipan:"+"Precio unitario:"+tulipan_precio+", cantidad:"+tulipan_cantidad+", Valor:" +tulipan_valor);
+console.log("Total:"+total)
+
+rosa_cantidad=rosa_cantidad-20;
+lirio_cantidad=lirio_cantidad-30;
+rosa_valor=rosa_precio*rosa_cantidad;
+lirio_valor=lirio_precio*lirio_cantidad;
+tulipan_valor=tulipan_precio*tulipan_cantidad;
+total=rosa_valor+lirio_valor+tulipan_valor;
+console.log("Rosa   :"+"Precio unitario:"+rosa_precio+", cantidad:"+rosa_cantidad+", Valor:" +rosa_valor);
+console.log("Lirio  :"+"Precio unitario:"+lirio_precio+", cantidad:"+lirio_cantidad+", Valor:" +lirio_valor);
+console.log("Tulipan:"+"Precio unitario:"+tulipan_precio+", cantidad:"+tulipan_cantidad+", Valor:" +tulipan_valor);
+console.log("Total:"+total)

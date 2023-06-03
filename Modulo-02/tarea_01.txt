@@ -1,0 +1,41 @@
+console.log("Tarea 1");
+let rosa_precio=8
+let rosa_cantidad=70;
+let rosa_valor=0;
+let lirio_precio=10;
+let lirio_cantidad=50;
+let lirio_valor=0;
+let tulipan_precio=2;
+let tulipan_cantidad=120;
+let tulipan_valor=0;
+let total=0;
+
+rosa_valor=rosa_precio*rosa_cantidad;
+lirio_valor=lirio_precio*lirio_cantidad;
+tulipan_valor=tulipan_precio*tulipan_cantidad;
+total=rosa_valor+lirio_valor+tulipan_valor;
+console.log("Rosa   :"+"Precio unitario:"+rosa_precio+", cantidad:"+rosa_cantidad+", Valor:" +rosa_valor);
+console.log("Lirio  :"+"Precio unitario:"+lirio_precio+", cantidad:"+lirio_cantidad+", Valor:" +lirio_valor);
+console.log("Tulipan:"+"Precio unitario:"+tulipan_precio+", cantidad:"+tulipan_cantidad+", Valor:" +tulipan_valor);
+console.log("Total:"+total)
+
+
+
+// existen muchos nombres de variables posibles y correctos
+let rosePrice = 8;
+let lilyPrice = 10;
+let tulipPrice = 2;
+
+let numberOfRoses = 70;
+let numberOfLilies = 50;
+let numberOfTulips = 120;
+
+let rosesValue = rosePrice * numberOfRoses;
+let liliesValue = lilyPrice * numberOfLilies;
+let tulipsValue = tulipPrice * numberOfTulips;
+
+let total = rosesValue + liliesValue + tulipsValue;
+console.log("Rosa: precio unitario:", rosePrice, ", cantidad:", numberOfRoses, ", valor:", rosesValue);
+console.log("Lirio: precio unitario:", lilyPrice, ", cantidad:", numberOfLilies, ", valor:", liliesValue);
+console.log("Tulipán: precio unitario:", tulipPrice, ", cantidad:", numberOfTulips, ", valor:", tulipsValue);
+console.log("Total: ", total);

@@ -1,0 +1,21 @@
+let b1
+let n1
+let big1
+let s1
+let cadena1
+b1=true
+n1=1000
+big1=1n + 2n
+s1="Cadena"
+console.log(b1 +" ["+typeof b1+"]")
+console.log(n1 +" ["+typeof n1+"]")
+console.log(big1+" ["+typeof big1+"]")
+console.log(s1+" ["+typeof s1+"]")
+cadena1="1234"
+cadena_numero=Number(cadena1)
+numero_bigint=BigInt(cadena_numero)
+bigint_boleano=Boolean(numero_bigint)
+console.log(cadena1)
+console.log(cadena_numero)
+console.log(numero_bigint)
+console.log(bigint_boleano)
