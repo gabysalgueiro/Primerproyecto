@@ -1,0 +1,11 @@
+let bool_1 = true + false;
+let numero_1 = 100 + 200;
+let big_1 = 100n + 200n;
+let cadena_1 = "He" + "llo";
+let undef_1 = undefined + undefined;
+
+console.log(`${bool_1} [${typeof bool_1}]`); // !!! number 
+console.log(`${numero_1} [${typeof numero_1}]`);
+console.log(`${big_1} [${typeof big_1}]`);
+console.log(`${cadena_1} [${typeof cadena_1}]`);
+console.log(`${undef_1} [${typeof undef1}]`); // !!! number

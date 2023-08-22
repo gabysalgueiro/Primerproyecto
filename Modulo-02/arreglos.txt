@@ -10,11 +10,3 @@ console.log(`${contacts[2].name} / ${contacts[2].phone} / ${contacts[2].email}` 
 console.log(`${contacts[3].name} / ${contacts[3].phone} / ${contacts[3].email}` )
 
 
-let x=0x21
-console.log(x)
-console.log(typeof x)
-
-let x="abcdefg".slice(2,4)
-console.log(x)
-
-

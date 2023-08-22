@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empty Page</title>
+    <script src="javascript.js"></script>
+    
+</head>
+<body>
+    <p> Un Parrafo Ordinario</p>
+<h1 class="titulos" id="titulo11">Hola a todos</h1>
+<h1 class="titulos" id="titulo12">Hola a todos</h1>
+<h2 class="subtitulos" id="titulo21">Hola a todos</h2>
+<h2 class="subtitulos" id="titulo22">Hola a todos</h2>
+<h3 class="titulos" id="titulo31">Hola a todos</h3>
+<h3 class="titulos" id="titulo32">Hola a todos</h3>
+<h4 class="titulos" id="titulo41">Hola a todos</h4>
+<h4 class="titulos" id="titulo42">Hola a todos</h4>
+</body>
+
+<script>
+let titulos=document.getElementsByTagName('h1')
+console.log(titulos)
+console.log('# de Elementos', titulos.length)
+for (let i=0;i<titulos.length;i++){
+ console.log(titulos[i]);
+}
+
+let titulos2=document.getElementsByClassName('subtitulos')
+
+console.log('# de Elementos', subtitulos.length)
+for (let i=0;i<titulos2.length;i++){
+ console.log(titulos[i]);
+}
+
+let titulos3=document.getElementById('titulo3')
+console.log(titulos3)
+</script>
+</html>

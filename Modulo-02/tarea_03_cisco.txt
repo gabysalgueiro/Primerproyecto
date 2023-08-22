@@ -1,0 +1,16 @@
+let variable_1= Boolean(BigInt(Number("6799")))
+console.log(`${variable_1}`)
+
+let bool_1 = true + false;
+let numero_1 = 6500 + 2900;
+let big_1 = 343400n + 2123400n;
+let cadena_1 = "Ho" + "la";
+let undef_1 = undefined + undefined;
+
+console.log(`${bool_1} [${typeof bool_1}]`); 
+console.log(`${numero_1} [${typeof numero_1}]`);
+console.log(`${big_1} [${typeof big_1}]`);
+console.log(`${cadena_1} [${typeof cadena_1}]`);
+console.log(`${undef_1} [${typeof undef_1}]`); 
+
+

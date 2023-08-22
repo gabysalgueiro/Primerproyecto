@@ -1,0 +1,3 @@
+
+let variable_1= Boolean(BigInt(Number("6799")))
+console.log(variable_1)

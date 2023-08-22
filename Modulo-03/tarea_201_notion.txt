@@ -1,0 +1,60 @@
+let alto=prompt ('Ingrese el Alto:');
+let bajo=prompt ('Ingrese el Bajo:');
+let ancho=prompt ('Ingrese el Ancho:');
+
+let superficie=alto*ancho*bajo
+console.log(`La superficie total es: ${superfice}`)
+
+
+
+
+
+
+let width = prompt("Volumen de la caja, ingresa el ancho", 0);
+let height = prompt("Volumen de la caja, ingresa la altura", 0);
+let length = prompt("Volumen de la caja, ingresa la longitud", 0);
+let volume = width * height * length;
+alert(`El volumen de la caja es ${volume}`);
+
+
+
+
+
+
+
+let alto=prompt ('Ingrese el Alto:');
+let bajo=prompt ('Ingrese el Bajo:');
+let ancho=prompt ('Ingrese el Ancho:');
+
+let superficie=alto*ancho*bajo
+console.log(`La superficie total es: ${superficie}`)
+
+
+let personas =[
+
+    { nombre:'Andres Cuentas', telefono :591989000, correo :'andres.psd@gmail.com'},
+    { nombre:'Pedro Pascal', telefono :591897776, correo :'pedro.pascal@gmail.com'},
+    { nombre:'Julia Roberts', telefono :591423423, correo :'julia.roberts@gmail.com'},
+    { nombre:'Ana Perez', telefono :591498823, correo :'ana.perez@gmail.com'},
+    { nombre:'Tom Hanks', telefono :591465112, correo :'tom.hanks@gmail.com'},
+    { nombre:'Mel Gibson', telefono :591491212, correo :'mel.gibson@gmail.com'},
+    
+    
+]
+console.log(personas)
+console.log(`${personas[0].nombre} / ${personas[0].telefono} / ${personas[0].correo}`)
+console.log(`${personas[1].nombre} / ${personas[1].telefono} / ${personas[1].correo}`)
+console.log(`${personas[2].nombre} / ${personas[2].telefono} / ${personas[2].correo}`)
+console.log(`${personas[3].nombre} / ${personas[3].telefono} / ${personas[3].correo}`)
+console.log(`${personas[4].nombre} / ${personas[4].telefono} / ${personas[4].correo}`)
+console.log(`${personas[5].nombre} / ${personas[5].telefono} / ${personas[5].correo}`)
+
+ 
+
+
+
+
+
+
+
+

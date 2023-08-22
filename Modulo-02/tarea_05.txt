@@ -1,0 +1,24 @@
+let bool_numero = true + 120; 
+let bool_cadena = true + "1500"; 
+let numero_bool = 200 + true;
+let numero_cadena = 580 + "2900";
+let big_cadena = 145600n + "5200"; 
+let cadenan_numero = "100" + 200;
+let cadena_big = "100" + 200n;
+let cadena_bool = "100" + true;
+let cadenaa_numero = "abc" + 200;
+let cadenaa_big = "abc" + 200n;
+let cadenaa_bool = "abc" + true;
+
+console.log(`${bool_numero} [${typeof bool_numero}]`);    
+console.log(`${bool_cadena } [${typeof bool_cadena }]`); 
+console.log(`${numero_bool} [${typeof numero_bool}]`); 
+console.log(`${numero_cadena} [${typeof numero_cadena}]`); 
+console.log(`${big_cadena} [${typeof big_cadena}]`); 
+console.log(`${cadenan_numero} [${typeof cadenan_numero}]`);    
+console.log(`${cadena_big} [${typeof cadena_big}]`);   
+console.log(`${cadena_bool} [${typeof cadena_bool}]`);    
+console.log(`${cadenaa_numero} [${typeof cadenaa_numero}]`);    
+console.log(`${cadenaa_big} [${typeof cadenaa_big}]`);   
+console.log(`${cadenaa_bool} [${typeof cadenaa_bool}]`);   
+

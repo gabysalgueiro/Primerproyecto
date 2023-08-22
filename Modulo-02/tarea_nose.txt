@@ -1,0 +1,56 @@
+let ticket={ 
+from:"Santa Cruz",
+to:"La Paz",
+price:150}
+console.log(`Ticket From: ${ticket.from}`);
+console.log(`Ticket To: ${ticket.to}`)
+console.log(`Ticket Price: ${ticket.price}`)
+
+
+
+let person = {};
+person.name = "Gabriela";
+person.surname = "Salgueiro";
+console.log(`${person.name} ${person.surname}`);
+
+
+
+
+let libros= [{
+        titulo: "Speaking JavaScript",
+        autor: "Axel Rauschmayer",
+        paginas: 460
+    },
+    {
+        titulo: "Programming JavaScript Applications",
+        autor: "Eric Elliot",
+        paginas: 254
+    },
+    {
+        titulo: "Understanding ECMAScript 6",
+        autor: "Nicholas C. Zakas",
+        paginas: 352
+    }
+];
+
+let nuevo_libro = {
+    titulo: "Learning JavaScript Design Patterns",
+    autor: "Addy Osmani",
+    paginas: 254
+};
+libros.push(newBook);
+console.log(libros.length);
+console.log(libros[0].title);
+console.log(libros[1].title);
+console.log(libros[2].title);
+console.log(libros[3].title);
+
+
+libros.shift()
+
+
+
+let nombres = ['Rita', 'Pedro', 'Miguel', 'Ana', 'Vanesa','Pepe','Patty', 'Ines'];
+let masculinos = nombres.slice(3, 7);
+console.log(nombres)
+console.log(masculinos)

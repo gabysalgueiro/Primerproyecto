@@ -1,0 +1,19 @@
+let bool_1=true
+let bool_2=Boolean(false)
+let numero_1=450
+let numero_2=Number(890)
+let big_1=10000099n
+let big_2=BigInt(200)
+let cadena_1="Hola"
+let cadena_2=String("Gabriela")
+let indef_1=undefined;
+
+console.log(`${bool_1} [${typeof bool_1}]`)
+console.log(`${bool_2} [${typeof bool_2}]`)
+console.log(`${numero_1} [${typeof numero_1}]`)
+console.log(`${numero_2} [${typeof numero_2}]`)
+console.log(`${big_1} [${typeof big_1}]`)
+console.log(`${big_2} [${typeof big_2}]`)
+console.log(`${cadena_1} [${typeof cadena_1}]`)
+console.log(`${cadena_2} [${typeof cadena_2}]`)
+console.log(`${indef_1} [${typeof indef_1}]`)
